@@ -7,10 +7,14 @@
 const React = require('react')
 
 /**
- * Import component styles
+ * Import app styles
  */
 
-import './App.css'
+import './styles/index.scss'
+
+/**
+ * Define component
+ */
 
 const App = () => {
   return (
