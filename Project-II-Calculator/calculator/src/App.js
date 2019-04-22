@@ -1,23 +1,99 @@
-import React from 'react';
-import './App.css';
+'use strict'
+
+/**
+ * Dependencies
+ */
+
+const React = require('react')
+const components = require('./components/')
+
+/**
+ * Import app styles
+ */
+
+require('./App.css')
+
+/**
+ * Define component
+ */
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
-  );
-};
+    <div className="jsx-App">
+      <div className="row">
+        <div className="col-12 text-right border bg-dark text-white">
+          <components.CalculatorDisplay text="0" />
+        </div>
+      </div>
 
-export default App;
+      <div className="row">
+        <div className="col-9 text-center border">
+          <components.ActionButton text="clear" />
+        </div>
+        <div className="col-3 text-center border bg-red text-white">
+          <components.ActionButton text="&#247;" />
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-3 text-center border">
+          <components.NumberButton text="7"/>
+        </div>
+        <div className="col-3 text-center border">
+          <components.NumberButton text="8"/>
+        </div>
+        <div className="col-3 text-center border">
+          <components.NumberButton text="9"/>
+        </div>
+        <div className="col-3 text-center border bg-red text-white">
+          <components.ActionButton text="x" />
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-3 text-center border">
+          <components.NumberButton text="4"/>
+        </div>
+        <div className="col-3 text-center border">
+          <components.NumberButton text="5"/>
+        </div>
+        <div className="col-3 text-center border">
+          <components.NumberButton text="6"/>
+        </div>
+        <div className="col-3 text-center border bg-red text-white">
+          <components.ActionButton text="-" />
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-3 text-center border">
+          <components.NumberButton text="1"/>
+        </div>
+        <div className="col-3 text-center border">
+          <components.NumberButton text="2"/>
+        </div>
+        <div className="col-3 text-center border">
+          <components.NumberButton text="3"/>
+        </div>
+        <div className="col-3 text-center border bg-red text-white">
+          <components.ActionButton text="+" />
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-9 text-center border">
+          <components.NumberButton text="0"/>
+        </div>
+        <div className="col-3 text-center border bg-red text-white">
+          <components.ActionButton text="=" />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+/**
+ * Export component
+ */
+
+module.exports = App
