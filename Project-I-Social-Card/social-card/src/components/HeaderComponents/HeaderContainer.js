@@ -21,9 +21,9 @@ require('./Header.css')
 
 const HeaderContainer = () => {
   return (
-    <div class="jsx-HeaderContainer">
+    <div className="jsx-HeaderContainer">
       <ImageThumbnail />
-      <div class="jsx-HeaderWrapper">
+      <div className="jsx-HeaderWrapper">
         <HeaderTitle />
         <HeaderContent />
       </div>

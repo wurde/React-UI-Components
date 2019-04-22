@@ -18,8 +18,11 @@ require('./Footer.css')
 
 const Footer = () => {
   return (
-    <div class="jsx-Footer">
-      Footer
+    <div className="jsx-Footer">
+      <i className="far fa-comment fa-flip-horizontal"></i>
+      <i className="fas fa-sync"></i>
+      <i className="far fa-heart"></i>
+      <i className="far fa-envelope"></i>
     </div>
   )
 }

@@ -1,0 +1,12 @@
+/* All styles for your footer Components live here */
+
+.jsx-Footer {
+  padding-left: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.jsx-Footer i {
+  color: #999;
+  margin-right: 45px;
+}

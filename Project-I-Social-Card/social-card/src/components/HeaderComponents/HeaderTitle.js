@@ -18,7 +18,7 @@ require('./Header.css')
 
 const HeaderTitle = () => {
   return (
-    <div class="jsx-HeaderTitle">
+    <div className="jsx-HeaderTitle">
       <h3>Lambda School</h3> <span>@LambdaSchool &#183; 26 jan</span>
     </div>
   )
