@@ -23,8 +23,10 @@ const HeaderContainer = () => {
   return (
     <div class="jsx-HeaderContainer">
       <ImageThumbnail />
-      <HeaderTitle />
-      <HeaderContent />
+      <div class="jsx-HeaderWrapper">
+        <HeaderTitle />
+        <HeaderContent />
+      </div>
     </div>
   )
 }

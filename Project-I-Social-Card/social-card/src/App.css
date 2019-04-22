@@ -7,3 +7,16 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.jsx-App {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+}
