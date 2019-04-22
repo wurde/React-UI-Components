@@ -10,7 +10,7 @@ const React = require('react')
  * Import app styles
  */
 
-import './styles/index.scss'
+require('./App.css')
 
 /**
  * Define component
@@ -33,7 +33,11 @@ const App = () => {
         </strong>
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+/**
+ * Export component
+ */
+
+module.exports = App
