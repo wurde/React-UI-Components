@@ -18,7 +18,7 @@ require('./Button.css')
 
 const NumberButton = (props) => {
   return (
-    <div className="jsx-NumberButton">{props.text}</div>
+    <div className={props.buttonStyle}>{props.text}</div>
   )
 }
 

@@ -37,13 +37,13 @@ const App = () => {
 
       <div className="row">
         <div className="col-3 text-center border">
-          <components.NumberButton text="7"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="7"/>
         </div>
         <div className="col-3 text-center border">
-          <components.NumberButton text="8"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="8"/>
         </div>
         <div className="col-3 text-center border">
-          <components.NumberButton text="9"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="9"/>
         </div>
         <div className="col-3 text-center border bg-red text-white">
           <components.ActionButton text="x" />
@@ -52,13 +52,13 @@ const App = () => {
 
       <div className="row">
         <div className="col-3 text-center border">
-          <components.NumberButton text="4"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="4"/>
         </div>
         <div className="col-3 text-center border">
-          <components.NumberButton text="5"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="5"/>
         </div>
         <div className="col-3 text-center border">
-          <components.NumberButton text="6"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="6"/>
         </div>
         <div className="col-3 text-center border bg-red text-white">
           <components.ActionButton text="-" />
@@ -67,13 +67,13 @@ const App = () => {
 
       <div className="row">
         <div className="col-3 text-center border">
-          <components.NumberButton text="1"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="1"/>
         </div>
         <div className="col-3 text-center border">
-          <components.NumberButton text="2"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="2"/>
         </div>
         <div className="col-3 text-center border">
-          <components.NumberButton text="3"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="3"/>
         </div>
         <div className="col-3 text-center border bg-red text-white">
           <components.ActionButton text="+" />
@@ -82,7 +82,7 @@ const App = () => {
 
       <div className="row">
         <div className="col-9 text-center border">
-          <components.NumberButton text="0"/>
+          <components.NumberButton buttonStyle="jsx-NumberButton" text="0"/>
         </div>
         <div className="col-3 text-center border bg-red text-white">
           <components.ActionButton text="=" />

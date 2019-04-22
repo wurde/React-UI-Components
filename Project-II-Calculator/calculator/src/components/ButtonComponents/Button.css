@@ -1,9 +1,18 @@
 .jsx-ActionButton {
   padding: 20px;
   font-size: 2rem;
+  cursor: pointer;
+}
+.jsx-ActionButton:hover {
+  background-color: #7c051b;
+  color: #FFF;
 }
 
 .jsx-NumberButton {
   padding: 20px;
   font-size: 2rem;
+  cursor: pointer;
+}
+.jsx-NumberButton:hover {
+  background-color: #DDD;
 }
