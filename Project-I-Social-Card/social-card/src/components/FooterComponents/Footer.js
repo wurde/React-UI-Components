@@ -5,3 +5,9 @@
  */
 
 const React = require('react')
+
+/**
+ * Import component styles
+ */
+
+import './Footer.css'

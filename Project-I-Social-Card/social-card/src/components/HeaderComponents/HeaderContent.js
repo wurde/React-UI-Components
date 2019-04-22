@@ -5,4 +5,9 @@
  */
 
 const React = require('react')
-import './Header.css';
+
+/**
+ * Import component styles
+ */
+
+import './Header.css'

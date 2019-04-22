@@ -5,7 +5,12 @@
  */
 
 const React = require('react')
-import './App.css';
+
+/**
+ * Import component styles
+ */
+
+import './App.css'
 
 const App = () => {
   return (

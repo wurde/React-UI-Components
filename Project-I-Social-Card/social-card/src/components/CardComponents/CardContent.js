@@ -5,4 +5,9 @@
  */
 
 const React = require('react')
-import './Card.css';
+
+/**
+ * Import component styles
+ */
+
+import './Card.css'
