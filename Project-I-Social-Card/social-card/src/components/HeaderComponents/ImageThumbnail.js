@@ -10,4 +10,22 @@ const React = require('react')
  * Import component styles
  */
 
-import './Header.css'
+require('./Header.css')
+
+/**
+ * Define component
+ */
+
+const ImageThumbnail = () => {
+  return (
+    <div class="jsx-ImageThumbnail">
+      ImageThumbnail
+    </div>
+  )
+}
+
+/**
+ * Export component
+ */
+
+module.exports = ImageThumbnail

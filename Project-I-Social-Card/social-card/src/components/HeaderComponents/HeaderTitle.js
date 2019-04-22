@@ -10,4 +10,22 @@ const React = require('react')
  * Import component styles
  */
 
-import './Header.css'
+require('./Header.css')
+
+/**
+ * Define component
+ */
+
+const HeaderTitle = () => {
+  return (
+    <div class="jsx-HeaderTitle">
+      HeaderTitle
+    </div>
+  )
+}
+
+/**
+ * Export component
+ */
+
+module.exports = HeaderTitle
