@@ -1,6 +1,10 @@
 'use strict'
 
-import React from 'react';
+/**
+ * Dependencies
+ */
+
+const React = require('react')
 import './App.css';
 
 const App = () => {
