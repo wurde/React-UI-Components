@@ -4,6 +4,11 @@
   padding-left: 100px;
 }
 
+.jsx-CardContainer {
+  text-decoration: none;
+  color: inherit;
+}
+
 .jsx-CardBanner {
   width: 100%;
   border-top-left-radius: 5px;

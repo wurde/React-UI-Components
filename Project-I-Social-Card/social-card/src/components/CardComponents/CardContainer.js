@@ -20,10 +20,10 @@ require('./Card.css')
 
 const CardContainer = () => {
   return (
-    <div class="jsx-CardContainer">
+    <a class="jsx-CardContainer" href="https://www.reactjs.org">
       <CardBanner />
       <CardContent />
-    </div>
+    </a>
   )
 }
 
