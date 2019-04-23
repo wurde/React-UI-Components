@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div className="jsx-App">
       <div className="row">
-        <div className="col-12 text-right border bg-dark text-white">
+        <div className="col-12">
           <components.CalculatorDisplay text="0" />
         </div>
       </div>
