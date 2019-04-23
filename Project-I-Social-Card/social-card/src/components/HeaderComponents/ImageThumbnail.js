@@ -10,7 +10,7 @@ const React = require('react')
  * Import component styles
  */
 
-require('./Header.css')
+require('./Header.scss')
 
 /**
  * Define component

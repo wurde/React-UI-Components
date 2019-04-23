@@ -10,7 +10,7 @@ const React = require('react')
  * Import component styles
  */
 
-require('./Card.css')
+require('./Card.scss')
 
 /**
  * Define component

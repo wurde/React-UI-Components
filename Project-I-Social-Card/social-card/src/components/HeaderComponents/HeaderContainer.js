@@ -13,7 +13,7 @@ const HeaderContent = require('./HeaderContent')
  * Import component styles
  */
 
-require('./Header.css')
+require('./Header.scss')
 
 /**
  * Define component

@@ -10,7 +10,7 @@ const React = require('react')
  * Import component styles
  */
 
-require('./Footer.css')
+require('./Footer.scss')
 
 /**
  * Define component

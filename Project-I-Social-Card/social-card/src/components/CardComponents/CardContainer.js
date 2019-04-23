@@ -12,7 +12,7 @@ const CardContent = require('./CardContent')
  * Import component styles
  */
 
-require('./Card.css')
+require('./Card.scss')
 
 /**
  * Define component
