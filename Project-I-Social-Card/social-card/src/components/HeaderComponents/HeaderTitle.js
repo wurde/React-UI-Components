@@ -5,6 +5,7 @@
  */
 
 const React = require('react')
+const moment = require('moment')
 
 /**
  * Import component styles
@@ -19,7 +20,7 @@ require('./Header.scss')
 const HeaderTitle = () => {
   return (
     <div className="jsx-HeaderTitle">
-      <h3>Lambda School</h3> <span>@LambdaSchool &#183; 26 jan</span>
+      <h3>Lambda School</h3> <span>@LambdaSchool &#183; {moment().format('DD MMMM')}</span>
     </div>
   )
 }
