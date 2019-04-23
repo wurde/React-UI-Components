@@ -1,0 +1,23 @@
+/**
+ * App styles.
+ */
+
+body {
+  margin: 0;
+  padding: 0.4rem;
+  font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.jsx-App {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  display: flex;
+  flex-flow: column wrap;
+}

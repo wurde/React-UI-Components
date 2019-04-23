@@ -1,0 +1,39 @@
+/* All styles for your header Components live here */
+
+.jsx-HeaderContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 5px;
+}
+
+.jsx-ImageThumbnail {
+  width: 80px;
+  height: 90px;
+}
+
+.jsx-HeaderContainer__text--padding-left {
+  padding-left: 15px;
+}
+
+.jsx-HeaderTitle {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 5px;
+}
+
+.jsx-HeaderTitle h3 {
+  margin: 0px;
+  padding-right: 10px;
+}
+
+.jsx-HeaderTitle span {
+  color: #82939F;
+}
+
+.jsx-HeaderContent {
+  font-size: 1.2rem;
+}
+
+.jsx-HeaderContent p {
+  margin: 15px 0px; 
+}
