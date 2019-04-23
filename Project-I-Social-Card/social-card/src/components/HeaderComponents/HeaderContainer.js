@@ -5,9 +5,7 @@
  */
 
 const React = require('react')
-const ImageThumbnail = require('./ImageThumbnail')
-const HeaderTitle = require('./HeaderTitle')
-const HeaderContent = require('./HeaderContent')
+const components = require('./index')
 
 /**
  * Import component styles
@@ -22,10 +20,10 @@ require('./Header.scss')
 const HeaderContainer = () => {
   return (
     <div className="jsx-HeaderContainer">
-      <ImageThumbnail />
+      <components.ImageThumbnail />
       <div className="jsx-HeaderWrapper">
-        <HeaderTitle />
-        <HeaderContent />
+        <components.HeaderTitle />
+        <components.HeaderContent />
       </div>
     </div>
   )

@@ -5,7 +5,7 @@
  */
 
 const React = require('react')
-const components = require('./components/')
+const components = require('./components/index')
 
 /**
  * Import app styles

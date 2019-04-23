@@ -5,8 +5,7 @@
  */
 
 const React = require('react')
-const CardBanner = require('./CardBanner')
-const CardContent = require('./CardContent')
+const components = require('./index')
 
 /**
  * Import component styles
@@ -21,8 +20,8 @@ require('./Card.scss')
 const CardContainer = () => {
   return (
     <a className="jsx-CardContainer" href="https://www.reactjs.org">
-      <CardBanner />
-      <CardContent />
+      <components.CardBanner />
+      <components.CardContent />
     </a>
   )
 }
