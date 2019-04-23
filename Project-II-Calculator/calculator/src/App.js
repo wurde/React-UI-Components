@@ -11,7 +11,7 @@ const components = require('./components/')
  * Import app styles
  */
 
-require('./App.css')
+require('./App.scss')
 
 /**
  * Define component

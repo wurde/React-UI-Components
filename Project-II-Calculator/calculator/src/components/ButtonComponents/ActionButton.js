@@ -10,7 +10,7 @@ const React = require('react')
  * Import component styles
  */
 
-require('./Button.css')
+require('./Button.scss')
 
 /**
  * Define component

@@ -10,7 +10,7 @@ const React = require('react')
  * Import component styles
  */
 
-require('./Display.css')
+require('./Display.scss')
 
 /**
  * Define component
