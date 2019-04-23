@@ -1,12 +1,18 @@
 /* All styles for your footer Components live here */
 
 .jsx-Footer {
+  display: flex;
   padding-left: 100px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.jsx-Footer i {
+.jsx-Footer__icon {
   color: #999;
-  margin-right: 45px;
+  margin-right: 75px;
+  font-size: 1.3rem;
+}
+
+.jsx-Footer__icon--padding-left {
+  padding-left: 6px;
 }

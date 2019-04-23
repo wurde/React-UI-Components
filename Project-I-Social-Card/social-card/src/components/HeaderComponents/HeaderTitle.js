@@ -20,7 +20,7 @@ require('./Header.scss')
 const HeaderTitle = () => {
   return (
     <div className="jsx-HeaderTitle">
-      <h3>Lambda School</h3> <span>@LambdaSchool &#183; {moment().format('DD MMMM')}</span>
+      <h3>Lambda School</h3> <span>@LambdaSchool &#183; {moment().format('DD MMM').toLowerCase()}</span>
     </div>
   )
 }

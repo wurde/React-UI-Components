@@ -19,10 +19,18 @@ require('./Footer.scss')
 const Footer = () => {
   return (
     <div className="jsx-Footer">
-      <i className="far fa-comment fa-flip-horizontal"></i>
-      <i className="fas fa-sync"></i>
-      <i className="far fa-heart"></i>
-      <i className="far fa-envelope"></i>
+      <div class="jsx-Footer__icon">
+        <i className="far fa-comment fa-flip-horizontal"></i>
+      </div>
+      <div class="jsx-Footer__icon">
+        <i className="fas fa-sync"></i> <span class="jsx-Footer__icon--padding-left">6</span>
+      </div>
+      <div class="jsx-Footer__icon">
+        <i className="far fa-heart"></i> <span class="jsx-Footer__icon--padding-left">4</span>
+      </div>
+      <div class="jsx-Footer__icon">
+        <i className="far fa-envelope"></i>
+      </div>
     </div>
   )
 }
