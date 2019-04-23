@@ -21,7 +21,7 @@ const HeaderContainer = () => {
   return (
     <div className="jsx-HeaderContainer">
       <components.ImageThumbnail />
-      <div className="jsx-HeaderWrapper">
+      <div className="jsx-HeaderContainer__text--padding-left">
         <components.HeaderTitle />
         <components.HeaderContent />
       </div>
