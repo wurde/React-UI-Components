@@ -13,12 +13,22 @@ const React = require('react')
 require('./Button.scss')
 
 /**
+ * Define click handler
+ */
+
+const clickHandler = event => {
+  let num = event.currentTarget.dataset.number
+  let display = document.querySelector('.jsx-CalculatorDisplay')
+  display.textContent = num
+}
+
+/**
  * Define component
  */
 
 const NumberButton = (props) => {
   return (
-    <div className={props.buttonStyle}>{props.text}</div>
+    <button onClick={clickHandler} className={props.buttonStyle} data-number={props.text}>{props.text}</button>
   )
 }
 
